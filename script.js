@@ -1,6 +1,6 @@
 //your code here
-const guessed = Number(document.querySelector('#response').value);
-const response = document.querySelector('#response');
+const guessed = Number(document.querySelector('#guess').value);
+const response = document.querySelector('#respond');
 const random = Math.floor(Math.random() * (20 - 1 + 1) + 1);
 response.innerHtml = random;
 
